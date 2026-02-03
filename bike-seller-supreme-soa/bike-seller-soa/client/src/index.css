@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  /* Esto hace que la barra de desplazamiento (scrollbar) sea oscura también */
+  color-scheme: dark; 
+}
+
+/* ELIMINA EL BORDE BLANCO AQUÍ */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* Asegura que el fondo sea oscuro incluso si la app no ha cargado */
+  background-color: #121212; 
+  color: white;
+  
+  /* Ocupar toda la altura */
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden; /* Evita scroll horizontal accidental */
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
